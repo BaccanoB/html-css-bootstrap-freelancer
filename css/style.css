@@ -1,0 +1,80 @@
+/* debug */
+
+nav {
+    height: 80px;
+}
+
+header > section {
+    height: 500px;
+}
+
+header > section > div {
+    padding: 30px;
+}
+
+h1 {
+    height: 40px;
+    background-color: slateblue;
+}
+
+h2 {
+    height: 30px;
+    background-color: sandybrown;
+}
+
+p {
+    height: 30px;
+    margin: 10px;
+    background-color: sandybrown;
+}
+
+.img {
+    height: 300px;
+    margin: 15px 0;
+    border-radius: 10px;
+    background-color: rosybrown;
+}
+
+#about {
+    height: 600px;
+}
+
+.text {
+    margin: 10px 0;
+    height: 200px;
+    background-color: salmon;
+}
+
+.btn {
+    height: 20px;
+    width: 100px;
+    margin: 20px 0;
+    background-color: skyblue;
+}
+
+#location {
+    background-color: #3A546D;
+}
+
+#copyright {
+    height: 80px;
+}
+
+/* common */
+body {
+    text-align: center;
+}
+
+.bg-green {
+    background-color: #1ABC9C;
+}
+
+.bg-blu {
+    background-color: #2C3E50;
+}
+
+/* header */
+
+/* main */
+
+/* footer */

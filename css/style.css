@@ -2,13 +2,15 @@
 
 nav {
     height: 80px;
-    line-height: 80px;
+}
+#nav-row {
+    margin: 10px 10px;
 }
 
 #link-nav {
     height: 30px;
+    margin: 10px;
     background-color: springgreen;
-    display: none;
 }
 
 header > section {
@@ -91,11 +93,7 @@ body {
 @media screen and (min-width: 992px) {
     
     #nav-row {
-        margin: 0 10px;
-    }
-
-    #hamburgher {
-        display: none;
+        margin: 10px 10px;
     }
 
     #link-nav {
@@ -121,6 +119,11 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
+
+    #nav-row {
+        margin: 10px 20px;
+    }
+
     #row-img-container {
         margin: 0 100px;
     }

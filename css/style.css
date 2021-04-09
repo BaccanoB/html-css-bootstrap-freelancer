@@ -2,6 +2,13 @@
 
 nav {
     height: 80px;
+    line-height: 80px;
+}
+
+#link-nav {
+    height: 30px;
+    background-color: springgreen;
+    display: none;
 }
 
 header > section {
@@ -78,3 +85,52 @@ body {
 /* main */
 
 /* footer */
+
+/* media */
+
+@media screen and (min-width: 992px) {
+    
+    #nav-row {
+        margin: 0 10px;
+    }
+
+    #hamburgher {
+        display: none;
+    }
+
+    #link-nav {
+        display: block;
+    }
+
+    #about {
+        height: 400px;
+    }
+
+    #row_md {
+        margin: 0 20px;
+    }
+
+    #row-about-container,
+    #contact-text {
+        margin: 0 40px;
+    } 
+
+    #row-footer-container {
+        margin: 0 100px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #row-img-container {
+        margin: 0 100px;
+    }
+
+    #row-about-container,
+    #contact-text {
+        margin: 0 120px;
+    }
+
+    #row-footer-container {
+        margin: 0 120px;
+    }
+}

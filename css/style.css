@@ -104,10 +104,24 @@ main p {
     color: #2C3E50;
     padding: 30px;
 }
-#contact_list_section p {
-    padding-bottom: 20px;
+
+input {
+    display: block;
+    width: 100%;
+    border: none;
+    font-size: 15px;
     border-bottom: 1px solid lightgray;
 }
+
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 15px;
+    border-bottom: 1px solid lightgray;
+}
+
 
 
 
@@ -121,12 +135,26 @@ main p {
     margin: 0 auto;
 }
 
-#social_icon_container{
-    width: 55%;
-    margin:0 auto
+.social_icon_container {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    padding: 10px 10px;
+    text-decoration: none;
 }
 
 .social_icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     color: white;
     font-size: 20px;
 }
@@ -149,6 +177,7 @@ main p {
     padding: 20px 0;
 }
 
+
 /* media */
 
 @media screen and (min-width: 992px) {
@@ -162,12 +191,6 @@ main p {
         padding: 10px 0;
         margin: 0 auto;
     }
-
-
-}
-
-@media screen and (min-width: 1200px) {
-
 
 
 }

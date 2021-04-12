@@ -54,6 +54,12 @@ hr {
     background-color: #1ABC9C;
     color: white;
 }
+.ms_btn:hover {
+    transition: 0.7s;
+    background-color: white;
+    color: #2C3E50;
+    border: 1px solid #2C3E50;
+}
 
 
 /* header */
@@ -71,16 +77,28 @@ hr {
    background-color: white;
 }
 
+
 .ms_navbar-toggle {
     margin-top: 20px;
     border: 1px solid white;
     border-radius: 5px;
+}
+.ms_navbar-toggle:hover {
+    border: none;
+    background-color: #1ABC9C;
 }
 
 li > a {
     color: white;
     font-size: 18px;
     text-transform: uppercase;
+}
+.nav>li>a:hover{
+    background-color: transparent;
+}
+li > a:hover{
+    transition: 0.5s;
+    color: #1ABC9C;
 }
 
 header > section > div {
@@ -168,6 +186,10 @@ textarea {
     border-radius: 50%;
     border: 2px solid white;
 }
+.social_icon_container:hover {
+    transition: 0.5s;
+    background-color: white;
+}
 
 li {
     display: inline-block;
@@ -183,6 +205,10 @@ li {
     transform: translate(-50%, -50%);
     color: white;
     font-size: 20px;
+}
+.social_icon:hover{
+    color: black;
+    transition: 0.5s;
 }
 
 #start_link {

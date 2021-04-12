@@ -57,6 +57,32 @@ hr {
 
 
 /* header */
+.ms_navbar {
+    border-radius: unset;
+    margin-bottom: 0;
+    background-color: #2C3E50;
+}
+.ms_navbar_header a {
+    padding-top: 25px;
+    font-size: 20px;
+    color: white;
+}
+.ms_navbar_header span {
+   background-color: white;
+}
+
+.ms_navbar-toggle {
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+li > a {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
 header > section > div {
     padding: 30px;
 }
@@ -181,6 +207,10 @@ li {
 /* media */
 
 @media screen and (min-width: 992px) {
+
+    .ms_navbar_header a {
+        font-size: 25px;
+    }
 
     p {
         font-size: 25px;
